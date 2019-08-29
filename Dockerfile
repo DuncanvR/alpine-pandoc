@@ -40,6 +40,7 @@ RUN apk upgrade --update && \
     apk add --virtual .persistent-deps $PERSISTENT_DEPS && \
     curl -fsSL "$PLANTUML_DOWNLOAD_URL" -o /usr/local/plantuml.jar && \
     chmod a+r /usr/local/plantuml.jar && \
+    pip install pandoc-plantuml-filter && \
     mkdir -p /pandoc-build \
              /var/docs && \
     cd /pandoc-build && \

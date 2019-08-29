@@ -32,7 +32,7 @@ The short version is `FROM skyzyx/alpine-pandoc:1.1.0`.
 ```Dockerfile
 FROM skyzyx/alpine-pandoc:1.1.0
 
-ENV PERSISTENT_DEPS wget git mercurial make gmp openssh sphinx
+ENV PERSISTENT_DEPS wget git mercurial make gmp openssh sphinx python py2-pip
 ENV SPHINXBUILD /usr/bin/sphinx-build
 ENV SPHINXOPTS -T
 

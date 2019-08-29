@@ -14,13 +14,13 @@ ENV BUILD_DEPS \
     ghc \
     libffi \
     musl-dev \
+    py2-pip \
+    python \
     zlib-dev
 ENV PERSISTENT_DEPS \
     gmp \
     graphviz \
     openjdk11-jre \
-    python \
-    py2-pip \
     sed \
     ttf-droid \
     ttf-droid-nonlatin
